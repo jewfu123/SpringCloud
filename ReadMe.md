@@ -19,10 +19,10 @@
 			return order;
 		}
 	}
-```
+	```
 
 ## 搭建EurekaServer
-#### 1. 引依赖 eureka-server
+1. 引依赖 eureka-server
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -31,9 +31,9 @@
 		*注意版本对好，例如：
 		springboot 3.3.0 vs. eureka 4.1.1 vs. java 17
 
-#### 2. 加注解 @EnableEurekaServer注解
+2. 加注解 @EnableEurekaServer注解
 
-#### 3. 配置信息 application.yml中配置eureka地址
+3. 配置信息 application.yml中配置eureka地址
 	```java
 	server:
 	  port: 10086
